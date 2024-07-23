@@ -21,3 +21,5 @@ function(sepal_width, petal_length, petal_width) {
                          Petal.Width = as.numeric(petal_width))
   predict(v, new_data)
 }
+
+

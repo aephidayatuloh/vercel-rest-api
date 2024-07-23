@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "plumber.R",
-        "use": "@vercel/r"
+        "src": "index.js",
+        "use": "@vercel/node"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "plumber.R"
+        "dest": "index.js"
       }
     ]
   }
