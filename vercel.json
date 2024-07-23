@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "plumber.R",
+        "use": "@vercel/r"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "plumber.R"
+      }
+    ]
+  }
+  
