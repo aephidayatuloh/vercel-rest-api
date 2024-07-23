@@ -1,0 +1,13 @@
+file: example_model.rds
+file_size: 7372
+pin_hash: d87dfe649ba97878
+type: rds
+title: 'example_model: a pinned list'
+description: An OLS linear regression model
+tags: ~
+urls: ~
+created: 20240723T105559Z
+api_version: 1
+user:
+  required_pkgs: ~
+  renv_lock: ~
